@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.welcome {
+  margin-top: 50px;
+  color: rgb(22, 22, 22);
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+.input-feedback {
+  width: 100%;
+  text-align: center;
+  height: 15px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  color: rgb(235, 54, 54);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit_btn {
+  width: 30%;
+  height: 50px;
+  margin-left: 35%;
+  padding: 10px 15px;
+  background-color: rgb(70, 153, 179);
+  background-color: 250ms;
+  color: white;
+  border: 1px solid rgb(70, 153, 179);
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(70, 153, 179);
+}
+
+.submit_btn.logout {
+  width: 10%;
+  margin-left: 45%;
+}
